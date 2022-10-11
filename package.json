@@ -1,6 +1,6 @@
 {
   "name": "react-native-mazic-components",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "react native custom components by Subrata Kumar Das.",
   "keywords": ["react native mazic components","react native custom components","custom react native components", "subrata das"],
   "main": "index.ts",
@@ -12,5 +12,9 @@
   "peerDependencies": {
     "react": "18.0.0",
     "react-native": "0.69.3"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subratsir/react-native-mazic-components.git"
   }
 }

@@ -1,3 +1,13 @@
+const primary = 'rgba(6,146,239,1)'; // '#014CA9';
+const secondary = 'rgba(6,146,239,1)'; //'#1E6ED1';
+const ternary = 'rgba(6,146,239,0.3)'; //'#5BA0F6';
+const white = '#fff';
+const black = '#000';
+const primary80 = 'rgba(1, 76, 169, 0.8)';
+const primary50 = 'rgba(1, 76, 169, 0.5)';
+const ternary50 = 'rgba(91, 160, 246, 0.5)';
+const ternary80 = 'rgba(91, 160, 246, 0.8)';
+
 export const appColors = {
     primary: primary, // #274490
     secondary: secondary, //#0099ff
