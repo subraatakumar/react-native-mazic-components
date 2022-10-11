@@ -1,0 +1,16 @@
+{
+  "name": "react-native-mazic-components",
+  "version": "1.0.2",
+  "description": "react native custom components by Subrata Kumar Das.",
+  "keywords": ["react native mazic components","react native custom components","custom react native components", "subrata das"],
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Subrata Kumar Das",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "18.0.0",
+    "react-native": "0.69.3"  
+  }
+}
