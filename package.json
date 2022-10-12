@@ -1,6 +1,6 @@
 {
   "name": "react-native-mazic-components",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "react native custom components by Subrata Kumar Das.",
   "keywords": ["react native mazic components","react native custom components","custom react native components", "subrata das"],
   "main": "index.ts",
