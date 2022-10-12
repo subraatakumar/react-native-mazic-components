@@ -8,34 +8,38 @@ This package is created for my personal use, but if you find it helpful, I will 
 
 ### Props
 
--  value: string;
--  setValue: Function;
--  err?: boolean;
--  setErr?: Function;
--  placeholder?: string;
--  validation?: validations[];
--  style?: any;
--  max?: number;
--  min?: number;
--  m?: number | null;
--  mb?: number;
--  mt?: number;
--  ml?: number;
--  mr?: number;
--  h?: number;
--  w?: number;
--  fct?: string| null; // Font color title
--  fci?: string| null; // Font color input
--  fce?: string| null; // Font color error
--  bgct?: string| null; // Background color title. Same as bgci if not provided
--  bgci?: string| null; // Background color input. Default white
--  bgce?: string| null; // Background color error. Same as bgci if not provided
--  fst?: number; // Font Size title, default is 12
--  fsi?: number; // Font size input, default is 16
--  fse?: number; // Font size error, default is 10
--  title?: string| null; // Same as placeholder if not mentioned
--  hideTitle?: boolean; // if true title will be hiden. Default is false
--  errorPosition?: "default" | "normal";
+-  **value:** *(string)*
+-  **setValue:** *(Function)*
+-  **err?:** *(boolean)*
+-  **setErr?:** *(Function)*
+-  **placeholder?:** *(string)*
+-  **validation?:** *(string[])* Details mentioned after example
+-  **max?:** *(number)*
+-  **min?:** *(number)*
+-  **m?:** *(number)* Margin value
+-  **mb?:** *(number)* Margin bottom
+-  **mt?:** *(number)* Margin Top
+-  **ml?:** *(number)* Margin Left
+-  **mr?:** *(number)* Margin Right
+-  **h?:** *(number)* Height. Default is 40
+-  **w?:** *(number)* Width. Default is 250
+-  **fct?:** *(string)* Font color title
+-  **fci?:** *(string)* Font color input
+-  **fce?:** *(string)* Font color error
+-  **bgct?:** *(string)* Background color title. Same as bgci if not provided
+-  **bgci?:** *(string)* Background color input. Default white
+-  **bgce?:** *(string)* Background color error. Same as bgci if not provided
+-  **fst?:** *(number)* Font Size title, default is 12
+-  **fsi?:** *(number)* Font size input, default is 16
+-  **fse?:** *(number)* Font size error, default is 10
+-  **title?:** *(string)* Same as placeholder if not mentioned
+-  **hideTitle?:** *(boolean)* if true title will be hiden. Default is false
+-  **errorPosition?:** *(string)* If normal then error will be displayed below input. Otherwise will overlap the botom border as shown in image.
+-  **style?:** If you want to modify any other style except the mentioned then use the default style option.
+
+```
+Note: Props with `?` are optional props.
+```
 
 ### Uses Example 
 
