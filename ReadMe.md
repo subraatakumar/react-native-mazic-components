@@ -17,7 +17,7 @@ This package is created for my personal use, but if you find it helpful, I will 
 -  **max?:** *(number)*
 -  **min?:** *(number)*
 -  **m?:** *(number)* Margin value
--  **mb?:** *(number)* Margin bottom
+-  **mb?:** *(number)* Margin bottom, default is 20
 -  **mt?:** *(number)* Margin Top
 -  **ml?:** *(number)* Margin Left
 -  **mr?:** *(number)* Margin Right

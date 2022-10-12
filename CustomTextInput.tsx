@@ -54,7 +54,7 @@ const CustomTextInput = ({
   m = null,
   ml = 0,
   mr = 0,
-  mb = 0,
+  mb = 20,
   mt = 0,
   h = 40,
   w = 250,
@@ -133,21 +133,6 @@ const CustomTextInput = ({
         marginRight: m ? m : mr
       }}
     >
-      {!hideTitle && (
-        <Text
-          style={{
-            position: "absolute",
-            fontSize: fst,
-            color: fct,
-            top: -10,
-            marginLeft: 10,
-            backgroundColor: bgct ? bgct : bgci,
-            borderRadius: 3
-          }}
-        >
-          {`${pText}`}
-        </Text>
-      )}
       <TextInput
         value={value}
         onChangeText={(t) => {
@@ -164,6 +149,22 @@ const CustomTextInput = ({
           ...style
         }}
       />
+      {!hideTitle && (
+        <Text
+          style={{
+            position: "absolute",
+            fontSize: fst,
+            color: fct,
+            top: -10,
+            marginLeft: 10,
+            backgroundColor: bgct ? bgct : bgci,
+            borderRadius: 3
+          }}
+        >
+          {`${pText}`}
+        </Text>
+      )}
+
       <Text
         style={
           errorPosition === "normal"
