@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrnmazic_component_docs=self.webpackChunkrnmazic_component_docs||[]).push([[6644],{7358:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/react-native-mazic-components/blog/tags/hello","allTagsPath":"/react-native-mazic-components/blog/tags","count":2}')}}]);

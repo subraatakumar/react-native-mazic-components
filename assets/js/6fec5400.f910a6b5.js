@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrnmazic_component_docs=self.webpackChunkrnmazic_component_docs||[]).push([[828],{1342:o=>{o.exports=JSON.parse('{"permalink":"/react-native-mazic-components/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
