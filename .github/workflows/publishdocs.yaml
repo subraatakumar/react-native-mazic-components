@@ -18,17 +18,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20.x
+        run: cd docs
         run: npm ci
         run: npm run build
-    deploy-docs:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4.1.6
-
-      - name: Set Node.js 20.x
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20.x
+        run: cd ..
         run: npm ci
         run: npm run deploy
