@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrnmazic_component_docs=self.webpackChunkrnmazic_component_docs||[]).push([[691],{3072:o=>{o.exports=JSON.parse('{"permalink":"/react-native-mazic-components/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
