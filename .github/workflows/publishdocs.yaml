@@ -36,6 +36,9 @@ jobs:
           git config --global user.name "GitHub Actions"
 
       - name: Deploy docs
+        env:
+          GIT_USER: "github-actions" # Set the Git user for deployment
+          GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Set GitHub token for authentication
         run: |
           cd docs
           yarn deploy
