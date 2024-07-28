@@ -32,6 +32,5 @@ jobs:
 
       - name: Deploy docs
         run: |
-          cd ..
           yarn install
           yarn deploy
