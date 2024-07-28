@@ -21,14 +21,17 @@ jobs:
         with:
           node-version: 20.x
 
+      - name: Install Yarn
+        run: npm install -g yarn
+
       - name: Install dependencies and build docs
         run: |
           cd docs
-          npm ci
-          npm run build
+          yarn install
+          yarn build
 
       - name: Deploy docs
         run: |
           cd ..
-          npm ci
-          npm run deploy
+          yarn install
+          yarn deploy
