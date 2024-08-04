@@ -6,7 +6,7 @@ This package is created for my personal use, but if you find it helpful, I will 
 - MazicButton
 - MazicOrderTrackingUI
 
-#### [Read Docs](https://subraatakumar.github.io/react-native-mazic-components/)
+#### [Read Docs](https://subraatakumar.github.io/react-native-mazic-components/docs/intro)
 
 #
 
