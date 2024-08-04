@@ -1,3 +1,4 @@
-import CustomTextInput from "./CustomTextInput";
-import CustomButton from "./CustomButton";
-export {CustomTextInput as MazicTextInput, CustomButton as MazicButton}
+import MazicTextInput from "./CustomTextInput";
+import MazicButton from "./CustomButton";
+import MazicOrderTrackingUi from "./OrderTrackingUi"
+export {MazicTextInput, MazicButton, MazicOrderTrackingUi}
