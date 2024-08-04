@@ -1,9 +1,9 @@
 {
   "name": "react-native-mazic-components",
-  "version" : "1.0.0",
-  "homepage": "https://subrataindia.github.io/react-native-mazic-components",
+  "version": "1.0.0",
+  "homepage": "https://subraatakumar.github.io/react-native-mazic-components",
   "scripts": {
-    "deploy" : "gh-pages -d ./docs/build"
+    "deploy": "gh-pages -d ./docs/build"
   },
   "dependencies": {
     "-": "^0.0.1",
